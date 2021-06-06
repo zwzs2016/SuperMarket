@@ -8,7 +8,8 @@
             <if test="userId != null">`user_id`, </if>
             <if test="userName != null">`user_name`, </if>
             <if test="userPassword != null">`user_password`, </if>
-            <if test="userNickname != null">`user_nickname`, </if>
+            <if test="userNickname !
+            = null">`user_nickname`, </if>
             <if test="userEmail != null">`user_email`, </if>
             <if test="userType != null">`user_type`, </if>
         </trim>

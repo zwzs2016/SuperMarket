@@ -2,19 +2,20 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="user" />
-        <module name="zuul-gateway" />
-        <module name="product" />
-        <module name="common" />
-        <module name="order" />
-        <module name="cart" />
-        <module name="search" />
         <module name="image" />
+        <module name="product" />
+        <module name="search" />
+        <module name="zuul-gateway" />
+        <module name="common" />
         <module name="instant-buy" />
+        <module name="user" />
+        <module name="cart" />
+        <module name="order" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
